@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .vercel
+
+#environment variables(keeping api key safe)
+.env
