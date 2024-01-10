@@ -43,7 +43,7 @@ const MapComp = () => {
 
     return (
         <APIProvider apiKey={apiKey}>
-            <div style={{ height: "500px", width: "100%" }}>
+            <div style={{ height: "500px", width: "50%" }}>
                 <Map
                     zoom={10}
                     center={{ lat: coords.latitude, lng: coords.longitude }}
