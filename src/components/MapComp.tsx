@@ -3,7 +3,6 @@ import { APIProvider, Map } from "@vis.gl/react-google-maps";
 import getRandomNumberBetween from "../functions/getRandomNumberBetween";
 
 const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-//console.log(apiKey);
 
 export type MapCoords = {
     latitude: number;
