@@ -34,7 +34,7 @@ function LocationForm() {
             }),
         );
     };
-    console.log(errors);
+    //console.log(errors);
     return (
         <div className="w-50 d-flex flex-column gap-3 align-items-center">
             <div className="d-flex flex-row justify-content-between w-50">

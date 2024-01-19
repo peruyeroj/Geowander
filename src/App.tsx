@@ -2,8 +2,11 @@ import MapComp from "./components/MapComp";
 import LocationForm from "./components/Location";
 import "./styles.css";
 import Random from "./components/Random";
+import reverseGeocode from "./functions/ReverseGeocode";
 
 function App() {
+    console.log("hello");
+    reverseGeocode(5, 5);
     return (
         <>
             <div
