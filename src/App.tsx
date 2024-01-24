@@ -15,7 +15,7 @@ function App() {
                     backgroundColor: "#607274",
                 }}
             >
-                <h1>Random Location Generator</h1>
+                <h1>Geowander</h1>
                 <MapComp />
                 <LocationForm />
                 <Random />
